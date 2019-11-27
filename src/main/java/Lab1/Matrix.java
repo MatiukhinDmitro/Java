@@ -4,7 +4,6 @@ import java.util.Scanner;
 import java.util.Random;
 public class Matrix {
     private static final int BORDER_MAX_RANDOM = 5;
-
     public static void main(String[] args) {
         boolean flag = false;
         do {
@@ -33,7 +32,6 @@ public class Matrix {
             }
         } while (flag == true);
     }
-
     private static void enterMatrixData(Scanner matrixNumberInput, int[][] matrix, int matrixRow, int matrixCol) {
         System.out.println("Enter Matrix Data");
         for (int i = 0; i < matrixRow; i++) {
@@ -42,7 +40,6 @@ public class Matrix {
             }
         }
     }
-
     private static void printMatrix(int[][] matrix, int matrixRow, int matrixCol) {
         System.out.println("Your Matrix is : ");
         for (int i = 0; i < matrixRow; i++) {
@@ -52,7 +49,6 @@ public class Matrix {
             System.out.println();
         }
     }
-
     private static void setMatrixDataAuto(Random arbitrary, int[][] matrixAuto, int matrixRowAuto, int matrixColAuto) {
         for (int i = 0; i < matrixRowAuto; i++) {
             for (int j = 0; j < matrixColAuto; j++) {
