@@ -12,6 +12,4 @@ public class Main {
         Lab1.MatrixCreator.printMatrix(array);
         System.out.println("\nМакс: " + arrayMax + "\nМин: " + arrayMin + "\nСумма: " + arraySum);
     }
-
-
 }
