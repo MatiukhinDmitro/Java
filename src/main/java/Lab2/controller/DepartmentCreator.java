@@ -1,7 +1,7 @@
-package lab2.controller;
+package Lab2.controller;
 
-import lab2.model.Department;
-import lab2.model.Group;
+import Lab2.model.Department;
+import Lab2.model.Group;
 
 import java.util.Scanner;
 

@@ -1,7 +1,7 @@
-package lab2;
+package Lab2;
 
-import lab2.controller.UniversityCreator;
-import lab2.model.University;
+import Lab2.controller.UniversityCreator;
+import Lab2.model.University;
 
 import java.util.Scanner;
 
