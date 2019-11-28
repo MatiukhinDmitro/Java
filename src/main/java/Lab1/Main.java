@@ -10,7 +10,7 @@ public class Main {
         int arraySum = Lab1.MatrixCreator.calculateSum(array);
 
         Lab1.MatrixCreator.printMatrix(array);
-        System.out.println("\nMax: " + arrayMax + "\nMin: " + arrayMin + "\nSum: " + arraySum);
+        System.out.println("\nМакс: " + arrayMax + "\nМин: " + arrayMin + "\nСумма: " + arraySum);
     }
 
 
