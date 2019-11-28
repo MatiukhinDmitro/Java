@@ -1,6 +1,6 @@
-package lab2.controller;
+package Lab2.controller;
 
-import lab2.model.Student;
+import Lab2.model.Student;
 
 import java.util.Scanner;
 
